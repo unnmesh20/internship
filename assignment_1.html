@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        .title{
+            text-align: center;
+            padding-bottom: 2%;
+        }
+        
+        .upper,.middle,.address,.end,.title1{
+            background-color: rgba(248, 220, 184, 0.377);
+        }
+        .end{
+            padding-bottom: 5%;
+        }
+        .sb{
+            margin-left: 40%;
+            margin-top: 2%;
+        }
+        .title1{
+            padding-top: 1%;
+        }
+    </style>
+</head>
+
+<body>
+   <section class="title1"> <h4 class="title">STUDENT REGISTRATION FORM</h4> </section>
+        <section class="upper">
+            <h5>PERSONAL DETAILS</h5>
+            <div class="row">
+                <form class="col s12 l6">
+                    <div class="row">
+                        <div class="input-field col s12 l2">
+                            <select>
+                                <option value="1">Mr.</option>
+                                <option value="2">Mrs.</option>
+                            </select>
+                            <label>Honorifics</label>
+                        </div>
+                        <div class="input-field col s6 l4 offset12">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6 l4 offset12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 offset12">
+                            <input type="text" class="datepicker">
+                            <label for="dob">DOB</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 offset12">
+                            <input id="phone_number" type="text" class="validate">
+                            <label for="phone_number">Phone Number</label>
+                        </div>
+                        <div class="input-field col s6 offset12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+
+
+                    </div>
+            </div>
+            <div class="row">
+
+            </div>
+            </form>
+    </div>
+    </section>
+    <section class="middle">
+        <h5>EDUCATION QUALIFICATION</h5>
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="row">
+                    <div class="input-field col s4 offset12">
+                        <input id="class10school" type="text" class="validate">
+                        <label for="class10school">School</label>
+                    </div>
+                    <div class="input-field col s4 offset12">
+                        <input id="class10year" type="text" class="validate">
+                        <label for="class10year">Year of Passing</label>
+                    </div>
+                    <div class="input-field col s4 offset12">
+                        <input id="class10percentage" type="text" class="validate">
+                        <label for="class10percentage">10%</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4 offset12">
+                        <input id="class12school" type="text" class="validate">
+                        <label for="class12school">School</label>
+                    </div>
+                    <div class="input-field col s4 offset12">
+                        <input id="class12year" type="text" class="validate">
+                        <label for="class12year">Year of Passing</label>
+                    </div>
+                    <div class="input-field col s4 offset12">
+                        <input id="class12percentage" type="text" class="validate">
+                        <label for="class12percentage">12%</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4 offset12">
+                        <input id="university" type="text" class="validate">
+                        <label for="university">University Name </label>
+                    </div>
+                    <div class="input-field col s4 offset12">
+                        <input id="ugyear" type="text" class="validate">
+                        <label for="ugyear">Year of Passing</label>
+                    </div>
+                    <div class="input-field col s4 offset12">
+                        <input id="cgpa" type="text" class="validate">
+                        <label for="cgpa">UG CGPA</label>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="address">
+        <h5>ADDRESS</h5>
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="row">
+                    <div class="input-field col s4 l12 offset12">
+                        <input id="addr1" type="text" class="validate">
+                        <label for="addr1">Address Line 1</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4 l12 offset12">
+                        <input id="addr2" type="text" class="validate">
+                        <label for="addr2">Address Line 2</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4 offset12">
+                        <input id="pincode" type="text" class="validate">
+                        <label for="pincode">Pincode</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 l6">
+                        <select>
+                            <option value="" disabled selected>Choose state</option>
+                            <option value="1">Odisha</option>
+                            <option value="2">Andhra Pradesh</option>
+                            <option value="3">West Bengal</option>
+                        </select>
+                        <label>Choose State</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.datepicker').datepicker();
+            $('select').formSelect();
+        });
+    </script>
+    <section class="end">
+        <button class="btn waves-effect waves-light sb" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </section>
+    
+
+</body>
+
+</html>
