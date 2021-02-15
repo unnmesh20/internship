@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Making device compitable -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Own Style sheet -->
+    <link rel="stylesheet" href="style/assign1.css">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <form action="" name="myForm" onsubmit="return validateForm()" method="POST">
+        <section class="title1">
+            <h4 class="title">STUDENT REGISTRATION FORM</h4>
+        </section>
+        <section class="upper">
+            <h5>PERSONAL DETAILS</h5>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="row">
+                        <div class="input-field col s12 l2">
+                            <select>
+                                <option value="1">Mr.</option>
+                                <option value="2">Mrs.</option>
+                            </select>
+                            <label>Honorifics</label>
+                        </div>
+                        <div class="input-field col s6 l4 offset12" id="ffname">
+                            <input id="first_name" type="text" class="validate"> <small class="formerror"
+                                style="color: red;"></small>
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6 l4 offset12" id="flname">
+                            <input id="last_name" type="text" class="validate"><small class="lname_error"
+                                style="color: red;"> </small>
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 offset12">
+                            <input type="text" class="datepicker">
+                            <label for="dob">DOB</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 offset12" id="phone">
+                            <input id="phone_number" type="number" class="validate"> <small class="phonerror"
+                                style="color: red;"></small>
+                            <label for="phone_number">Phone Number</label>
+                        </div>
+                        <div class="input-field col s6 offset12" id="femail_id">
+                            <input id="email" type="email" class="validate"><small class="emailerror"
+                                style="color: red;"></small>
+                            <label for="email">Email</label>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="middle">
+            <h5>EDUCATION QUALIFICATION</h5>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="row">
+                        <div class="input-field col s4 offset12">
+                            <input id="class10school" type="text" class="validate">
+                            <label for="class10school">School</label>
+                        </div>
+                        <div class="input-field col s4 offset12">
+                            <input id="class10year" type="text" class="validate">
+                            <label for="class10year">Year of Passing</label>
+                        </div>
+                        <div class="input-field col s4 offset12">
+                            <input id="class10percentage" type="text" class="validate">
+                            <label for="class10percentage">10%</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 offset12">
+                            <input id="class12school" type="text" class="validate">
+                            <label for="class12school">School</label>
+                        </div>
+                        <div class="input-field col s4 offset12">
+                            <input id="class12year" type="text" class="validate">
+                            <label for="class12year">Year of Passing</label>
+                        </div>
+                        <div class="input-field col s4 offset12">
+                            <input id="class12percentage" type="text" class="validate">
+                            <label for="class12percentage">12%</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 offset12">
+                            <input id="university" type="text" class="validate">
+                            <label for="university">University Name </label>
+                        </div>
+                        <div class="input-field col s4 offset12">
+                            <input id="ugyear" type="text" class="validate">
+                            <label for="ugyear">Year of Passing</label>
+                        </div>
+                        <div class="input-field col s4 offset12">
+                            <input id="cgpa" type="text" class="validate">
+                            <label for="cgpa">UG CGPA</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="address">
+            <h5>ADDRESS</h5>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="row">
+                        <div class="input-field col s4 l12 offset12 " id="faddress1">
+                            <input id="addr1" type="text" class="validate"> <small class="faddress1_error"
+                                style="color: red;"></small>
+                            <label for="addr1">Address Line 1</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 l12 offset12">
+                            <input id="addr2" type="text" class="validate">
+                            <label for="addr2">Address Line 2</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4 offset12">
+                            <input id="pincode" type="text" class="validate">
+                            <label for="pincode">Pincode</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 l6">
+                            <select id="country">
+                                <option value="">Choose country</option>
+                            </select>
+                            <label>Choose Country</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 l6">
+                            <select id="state">
+                                <option value="">Choose state</option>
+                            </select>
+                            <label>Choose State</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="end">
+            <button class="btn waves-effect waves-light sb" onclick="clicked()" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </section>
+
+    </form>
+    <script src="js/trail1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.datepicker').datepicker();
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>

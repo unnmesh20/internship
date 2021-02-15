@@ -1,0 +1,54 @@
+.pdetails{
+    background-color:rgba(255, 99, 71, 0.39);
+    margin-right: 85%;
+    color: rgb(43, 38, 38);
+}
+.header_class
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* main section */
+.edetails{
+    background-color:rgba(255, 99, 71, 0.39);
+    margin-right: 85%;
+    color: rgb(43, 38, 38);
+}
+.cinfo{
+    background-color:rgba(255, 99, 71, 0.39);
+    margin-right: 85%;
+    color: rgb(43, 38, 38);
+}
+.per10label,.yop10label,.per12label,.yop12label,.cgpa_label,.grad_date{
+    margin-left: 2%;
+}
+.LName{
+    padding-left: 20%;
+
+}
+#firstname,#lastname,#phone_no,#emailid,#schoolname10,#schoolname12,#uniname,#class10percentage,#yop10,#class12percentage,
+#yop12,#cgpa,#grad_date_id,#addr1,#addr2,#pincode,#state
+{
+    margin-left: 5%;
+    border-style: double;
+    tab-size: 1;
+}
+/* #lastname{
+    margin-left: 5%;
+    border-style: double;
+
+} */
+.heading{
+text-align: center;
+}
+*
+{
+    background-color: rgba(230, 144, 144, 0.123);
+    font-family: 'Work Sans', sans-serif;
+}
+.buttons
+{
+    margin-left: 45%;
+    padding-bottom: 0.5%;
+    text-align: center;
+}
