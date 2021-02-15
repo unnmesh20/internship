@@ -1,0 +1,67 @@
+header{
+  background-color:#b67171;
+  letter-spacing: normal;
+  padding-bottom:10%;
+
+}
+/* main{
+  background-color: grey;
+  padding-top: 20px;
+} */
+.contact{
+  background-color: #cdd0cb;
+  padding-top: 20px;
+}
+.contact:hover{
+  background-color: grey;
+}
+
+header:hover{
+background-color: #9b5151;
+}
+nav{
+  background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav:hover{
+  color:black;
+}
+h1{
+  font-size: 2rem;
+  font-style: italic;
+  font-family: cursive;
+}
+.education{
+  padding-top: 20px;
+  background-color: #b67171;
+  padding-bottom: 20px;
+}
+.education:hover{
+  background-color: #9b5151;
+  padding-bottom: 5%;
+}
+.about{
+  font-style: oblique;
+  font-size:1.5rem;
+  padding-top: 20px;
+  background-color: #cdd0cb;
+  padding-bottom: 7%;
+}
+.about:hover
+{
+  background-color: grey;
+}
+
+@media(min-width: 200px) and (max-width: 800px){
+.about
+{
+  display: none;
+}
+}
