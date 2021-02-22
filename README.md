@@ -4,3 +4,7 @@ The assignment-1 has been done in two ways.
 ### 1 The other with Materialize framework, saved as assignment_1.html 
 ### 2 Assignment-2 branch with Javascript Validation
 ### 3 Assignment-3 jQuery Validation has the form designed with jQuery Validator package.
+Assignment-3 files:
+-assignment_jquery.html
+-assign1.cs
+-jquery_sv.js
