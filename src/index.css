@@ -1,0 +1,29 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header_section,.education_details,.contact_details{
+  background-color: rgba(248, 220, 184, 0.377);
+  /* color: rgba(210, 105, 30, 0.555); */
+  margin-bottom: 1%;
+}
+.heading{
+  text-align: center;
+  background-color: rgba(248, 220, 184, 0.377);
+  padding-top: 3%;
+  margin-top: 0%;
+  font-size: 40px;
+}
+.inside_heading{
+  font-size: 20px;
+  color: black;
+}
+
